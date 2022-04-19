@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    background-color: rgb(78, 224, 52);
+    width: 450px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:0px 4px 8px 0px rgb(241, 168, 73);
+}
+.card:hover{
+    box-shadow:0px 8px 16px 0px rgba(70, 220, 70, 0.7);
+}
+.card-title h2{
+    text-align: center;
+    font-family: bolder;
+}
+
+#guessNumber{
+    width: 50%;
+    border: none;
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+.btn-div{
+    width: 97%;
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+#btn{
+    padding: 5px;
+    color: white;
+    background-color: rgb(56, 154, 245);
+    border-radius: 5px;
+    border: none;
+
+}
+#btn:hover{
+    background-color: rgba(56, 154, 245,0.5);
+}
+
+#game-result{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+#remaining-chance{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.finalResultParagraph{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
